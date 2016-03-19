@@ -1,0 +1,23 @@
+<ion-view title="Settings">
+    <ion-content overflow-scroll="true" padding="true" style="background: url(img/xis9qX9CRSaZdVdwR7AB_secu.png) no-repeat center;" class="has-header">
+        <form class="list">
+            <ion-checkbox>Enable Security App</ion-checkbox>
+            <ion-toggle toggle-class="toggle-positive">Email Notifcation Toggle</ion-toggle>
+            <ion-toggle toggle-class="toggle-positive">SMS/Text Toggle</ion-toggle>
+            <ion-toggle toggle-class="toggle-positive">Pop-up Notifications</ion-toggle>
+            <ion-toggle toggle-class="toggle-positive">Automated Voice Call</ion-toggle>
+            <ion-item class="range range-positive">Notification Volume
+                <input type="range" value="50" min="0" max="100">
+            </ion-item>
+            <label class="item item-select">
+                <span class="input-label">Preferred</span>
+                <select>
+                    <option>Email</option>
+                    <option>Voice Call</option>
+                    <option>Text/SMS</option>
+                    <option>Pop-up Notification</option>
+                </select>
+            </label>
+        </form>
+    </ion-content>
+</ion-view>
